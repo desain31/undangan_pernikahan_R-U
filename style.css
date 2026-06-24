@@ -151,6 +151,15 @@ z-index:2;
 
 }
 
+@media(max-width:768px){
+
+#introSection{
+    padding-top:140px;
+}
+
+}
+
+
 /* =======================================================
    SECTION
 ======================================================= */
@@ -3578,82 +3587,84 @@ will-change:transform;
 
     /* JANUR */
     .section-ornament-top{
-        top: 20px;
+        top: 80px;
         left: -20px;
     }
 
-    .section-ornament-top img{
-        width: 140px;
-        opacity: .4;
-    }
-
     .section-ornament-bottom{
+        top: 80px;
         right: -20px;
-        bottom: 0;
+        bottom: auto;
     }
 
+    .section-ornament-top img,
     .section-ornament-bottom img{
-        width: 140px;
-        opacity: .4;
+        width: 240px;
+        opacity: .7;
     }
 
     /* WAYANG OPENING */
     .wayang-left,
     .wayang-right{
-        height: 20%;
-        opacity: .05;
+        height: 75%;
+        opacity: .18;
     }
 
     /* WAYANG SECTION */
     .small-arjuna,
     .small-srikandi{
-        width: 50px;
-        opacity: .05;
+        width: 100px;
+        opacity: .12;
     }
 
     /* GUNUNGAN */
     .gunungan-center{
-        width: 90px;
-        top: 20px;
-        opacity: .2;
+        width: 120px;
+        top: 40px;
+        opacity: .25;
     }
 
     /* FLOWER OPENING */
     .flower-left,
     .flower-right{
-        width: 120px;
-        opacity: .5;
+        width: 180px;
+        opacity: .7;
     }
 
     /* ORNAMEN QURAN */
     .quran-ornament-left,
     .quran-ornament-right{
-        width: 40px;
-        top: 90%;
-        opacity: .15;
+        width: 120px;
+        opacity: .45;
+        top: 50%;
     }
 
     .quran-ornament-left{
-        left: -10px;
+        left: -30px;
     }
 
     .quran-ornament-right{
-        right: -10px;
+        right: -30px;
     }
 
     /* WAYANG CLOSING */
     .closing-wayang-left img,
     .closing-wayang-right img{
-        width: 70px;
-        opacity: .15;
+        width: 140px;
+        opacity: .25;
     }
 
     .closing-wayang-left{
-        left: -10px;
+        left: -15px;
     }
 
     .closing-wayang-right{
-        right: -10px;
+        right: -15px;
+    }
+
+    /* ASSALAMUALAIKUM TIDAK TERTUTUP NAVBAR */
+    #intro{
+        padding-top: 170px;
     }
 
 }

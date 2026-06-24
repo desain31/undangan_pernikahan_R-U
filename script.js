@@ -473,47 +473,6 @@ navMenu.classList.toggle(
 }
 
 /* ======================================================
-   CUSTOM CURSOR
-====================================================== */
-
-const cursorDot =
-document.querySelector(
-".cursor-dot"
-);
-
-const cursorOutline =
-document.querySelector(
-".cursor-outline"
-);
-
-document.addEventListener(
-"mousemove",
-e=>{
-
-if(cursorDot){
-
-cursorDot.style.left =
-e.clientX + "px";
-
-cursorDot.style.top =
-e.clientY + "px";
-
-}
-
-if(cursorOutline){
-
-cursorOutline.style.left =
-e.clientX - 20 + "px";
-
-cursorOutline.style.top =
-e.clientY - 20 + "px";
-
-}
-
-}
-);
-
-/* ======================================================
    RIPPLE EFFECT
 ====================================================== */
 

@@ -1116,12 +1116,9 @@ async function loadWishes(){
 
     try{
 
-        const q = query(
-            collection(db, "wishes"),
-            orderBy("timestamp", "desc")
+        const snapshot = await getDocs(
+            collection(db, "wishes")
         );
-
-        const snapshot = await getDocs(q);
 
         console.log("GET DOCS SELESAI");
         console.log("Jumlah data:", snapshot.size);
@@ -1270,17 +1267,11 @@ document.getElementById(
 ).value;
 
 const data = {
-
 name:name,
-
 attendance:attendance,
-
-status:status,
-
-message:wish,
-
-date:
-new Date().toLocaleDateString(
+status:status,message:wish,
+timestamp: serverTimestamp(),
+date:new Date().toLocaleDateString(
 "id-ID",
 {
 day:"numeric",
@@ -1288,7 +1279,6 @@ month:"long",
 year:"numeric"
 }
 )
-
 };
 
 await addDoc(

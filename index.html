@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Undangan Pernikahan Adat Jawa | Rizki & Udin
+    </title>
+
+        <meta name="description"
+        content="Undangan Pernikahan Digital Adat Jawa">
+
+        <meta name="keywords"
+        content="Undangan Digital, Pernikahan Jawa, Wedding Invitation">
+
+        <meta name="author"
+        content="Nama Pembuat">
+
+        <meta property="og:title"
+        content="Undangan Pernikahan Rizki & Udin">
+
+        <meta property="og:description"
+        content="Elegant Royal Javanese Wedding">
+
+        <meta property="og:image"
+        content="assets/image/cover.jpg">
+
+        <meta property="og:type"
+        content="website">
+
+        <meta name="theme-color"
+        content="#c9a35c">
+
+        <link rel="icon"
+        href="assets/icons/favicon.png">
+
+        <!-- GOOGLE FONT -->
+
+        <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+        <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<!-- ===================================== -->
+<!-- CUSTOM CURSOR -->
+<!-- ===================================== -->
+
+<div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+        <!-- ===================================== -->
+        <!-- LOADING SCREEN -->
+        <!-- ===================================== -->
+
+        <div id="loader">
+
+            <div class="loader-inner">
+
+                <img
+                src="assets/image/gunungan.png"
+                class="loader-gunungan"
+                alt="Gunungan">
+
+                    <h2>
+                    The Wedding
+                    </h2>
+
+                        <div class="loading-text">
+                        Memuat Undangan...
+                        </div>
+
+                    <div class="loading-bar">
+
+                        <div class="loading-progress">
+
+                        </div>
+
+                    </div>
+
+                <div id="loadingPercent">
+                0%
+                </div>
+
+            </div>
+
+        </div>
+
+<!-- ===================================== -->
+<!-- FLOATING ORNAMENT -->
+<!-- ===================================== -->
+
+<div id="floatingFlowers"></div>
+<div id="floatingLeaves"></div>
+<div id="floatingSparkles"></div>
+<div id="petalRain"></div>
+
+<!-- ===================================== -->
+<!-- SCROLL INDICATOR -->
+<!-- ===================================== -->
+
+<div id="scrollProgress"></div>
+
+<!-- ===================================== -->
+<!-- OPENING SCREEN -->
+<!-- ===================================== -->
+
+<section id="openingScreen">
+
+    <div class="opening-overlay"></div>
+
+        <!-- Background Jawa -->
+
+        <div class="opening-background">
+
+            <img
+            src="assets/image/pendopo.png"
+            class="pendopo-bg"
+            alt="Pendopo">
+
+        </div>
+
+        <!-- Wayang -->
+
+            <img
+            src="assets/image/arjuna.png"
+            class="wayang-left"
+            alt="Arjuna">
+
+            <img
+            src="assets/image/srikandi.png"
+            class="wayang-right"
+            alt="Srikandi">
+
+            <img
+            src="assets/image/gunungan.png"
+            class="gunungan-center"
+            alt="Gunungan">
+
+        <!-- Bunga -->
+
+    <div class="flower-left">
+
+        <img
+        src="assets/image/bunga-left.png"
+        alt="Flower">
+
+    </div>
+
+    <div class="flower-right">
+
+        <img
+        src="assets/image/bunga-right.png"
+        alt="Flower">
+
+    </div>
+
+<div class="opening-content">
+
+    <div class="opening-subtitle">
+        THE WEDDING OF
+    </div>
+
+        <h1 class="couple-title">
+
+        R
+        <span>&</span>
+        U
+
+        </h1>
+
+    <div class="couple-cover">
+
+        <img
+        src="assets/image/couple.png"
+        alt="Couple">
+
+    </div>
+
+    <div class="guest-container">
+
+        <p>Kepada Yth.</p>
+
+            <h2 id="guestName">
+            Tamu Undangan
+            </h2>
+
+    </div>
+
+        <button id="openInvitation">
+
+            <span>
+            Buka Undangan
+            </span>
+
+        </button>
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- AUDIO -->
+<!-- ===================================== -->
+
+<audio
+    id="backgroundMusic"
+    loop>
+
+    <source
+    src="assets/music/music.mp3"
+    type="audio/mp3">
+
+</audio>
+
+<!-- ===================================== -->
+<!-- MAIN CONTENT -->
+<!-- ===================================== -->
+
+<main id="mainContent" style="display:none;">
+    <!-- ================================================= -->
+<!-- NAVBAR PREMIUM -->
+<!-- ================================================= -->
+
+    <header id="header">
+
+        <nav class="navbar" id="navbar">
+
+            <div class="nav-logo">
+
+                <img
+                src="assets/image/gunungan.png"
+                alt="Logo">
+
+                    <span>
+                    The Wedding Of R & U
+                    </span>
+
+            </div>
+
+<ul class="nav-menu">
+
+    <li>
+        <a href="#homeIntro">
+        Beranda
+        </a>
+    </li>
+
+    <li>
+        <a href="#coupleSection">
+        Mempelai
+        </a>
+    </li>
+
+    <li>
+        <a href="#quranSection">
+        Ayat
+        </a>
+    </li>
+
+    <li>
+        <a href="#familySection">
+        Keluarga
+        </a>
+    </li>
+
+    <li>
+        <a href="#loveStory">
+        Love Story
+        </a>
+    </li>
+
+    <li>
+        <a href="#gallerySection">
+        Galeri
+        </a>
+    </li>
+
+    <li>
+        <a href="#eventSection">
+        Acara
+        </a>
+    </li>
+
+    <li>
+        <a href="#giftSection">
+        Gift
+        </a>
+    </li>
+
+    <li>
+        <a href="#rsvpSection">
+        RSVP
+        </a>
+    </li>
+
+</ul>
+
+    <div class="mobile-toggle">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+</nav>
+
+</header>
+
+<!-- ================================================= -->
+<!-- HOME INTRO -->
+<!-- ================================================= -->
+
+<section
+id="homeIntro"
+class="section">
+
+    <div class="section-ornament-top">
+
+        <img
+        src="assets/image/janur-top.png"
+        alt="Janur">
+
+    </div>
+
+<div class="container">
+
+    <div class="section-title">
+
+        <h5>
+        Assalaamu'alaikum Warahmatullaahi Wabarakaatuh
+        </h5>
+
+        <h2>
+        The Wedding Of
+        </h2>
+
+    </div>
+
+        <div class="intro-card glass-card">
+
+            <p>
+            Dengan memohon rahmat dan ridha Allah SWT,
+            kami bermaksud mengundang
+            Bapak/Ibu/Saudara/i
+            untuk menghadiri acara
+            pernikahan kami.
+            </p>
+
+            <p>
+            Merupakan suatu kehormatan dan kebahagiaan
+            bagi kami apabila Bapak/Ibu/Saudara/i
+            berkenan hadir serta memberikan doa restu.
+            </p>
+
+        </div>
+</div>
+
+<div class="section-ornament-bottom">
+
+    <img
+    src="assets/image/janur-bottom.png"
+    alt="Janur">
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- SECTION MEMPELAI PERTAMA -->
+<!-- ================================================= -->
+
+<section
+    id="coupleSection"
+    class="section">
+
+    <div class="batik-overlay"></div>
+    <div class="container">
+        <div class="section-title">
+
+            <h5>
+                The Wedding Of
+            </h5>
+
+            <h2>
+                Yang Berbahagia
+            </h2>
+
+        </div>
+
+    <div class="couple-wrapper">
+
+        <div class="person-card reveal-left">
+
+            <div class="person-frame">
+
+                <img
+                src="assets/image/pria.jpeg"
+                alt="Mempelai Pria">
+
+            </div>
+
+                <h3>
+                Muhammad Sholeh Salahuddin S.Pd.
+                </h3>
+
+                    <p>
+                    Mempelai Pria
+                    </p>
+
+        </div>
+
+    <div class="love-center">
+        <div class="love-circle">
+        ❤
+        </div>
+    </div>
+
+        <div class="person-card reveal-right">
+
+            <div class="person-frame">
+
+                <img
+                src="assets/image/wanita.jpeg"
+                alt="Mempelai Wanita">
+
+            </div>
+
+                <h3>
+                Rizki Amalia Puteri S.Hum.,S.Pd.,M.Pd.,Gr
+                </h3>
+
+                    <p>
+                    Mempelai Wanita
+                    </p>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="wayang-decoration">
+
+        <img
+            src="assets/image/arjuna.png"
+            class="small-arjuna"
+            alt="Arjuna">
+
+        <img
+            src="assets/image/srikandi.png"
+            class="small-srikandi"
+            alt="Srikandi">
+
+    </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- AYAT AL-QURAN -->
+<!-- ================================================= -->
+
+<section
+    id="quranSection"
+    class="section">
+
+        <div class="islamic-pattern"></div>
+        <div class="container">
+            <div class="section-title">
+
+                <h5>
+                    Firman Allah SWT
+                </h5>
+
+                <h2>
+                    QS. Ar-Rum Ayat 21
+                </h2>
+
+            </div>
+
+        <div class="quran-card glass-card">
+        <div class="arabic-text">
+
+        وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ
+        أَنْفُسِكُمْ أَزْوَاجًا
+        لِتَسْكُنُوا إِلَيْهَا
+        وَجَعَلَ بَيْنَكُمْ
+        مَّوَدَّةً وَّرَحْمَةًۗ اِنَّ فِيْ ذٰلِكَ
+        لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ ۝٢١
+
+        </div>
+
+        <div class="latin-text">
+
+        Wa min āyātihī an khalaqa lakum min
+        anfusikum azwājan litaskunū ilaihā
+        wa ja‘ala bainakum mawaddatan wa raḥmah,
+        inna fî dzâlika la'âyâtil liqaumiy yatafakkarûn
+
+        </div>
+
+        <div class="translation-text">
+
+        "Dan di antara tanda-tanda kekuasaan-Nya
+        ialah Dia menciptakan untukmu pasangan hidup
+        dari jenismu sendiri supaya kamu merasa tenteram
+        kepadanya dan dijadikan-Nya di antara kamu
+        rasa kasih dan sayang."
+
+        (QS. Ar-Rum : 21)
+
+        </div>
+
+        </div>
+
+        </div>
+
+    <div class="quran-ornament-left">
+
+        <img
+            src="assets/icons/ornament-gold-left.png"
+            alt="">
+
+    </div>
+
+    <div class="quran-ornament-right">
+
+        <img
+            src="assets/icons/ornament-gold-right.png"
+            alt="">
+
+    </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- SECTION MEMPELAI + ORANG TUA -->
+<!-- ================================================= -->
+
+<section
+id="familySection"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h5>
+                Mempelai
+            </h5>
+
+            <h2>
+                Yang berbahagia
+            </h2>
+
+        </div>
+
+    <div class="family-card">
+
+        <div class="family-photo">
+
+            <img
+                src="assets/image/couple-full.png"
+                alt="Pasangan">
+
+        </div>
+
+    <div class="family-content">
+
+        <div class="family-item">
+
+            <h2>
+                Muhammad Sholeh Salahuddin S.Pd.
+            </h2>
+
+                <h4>
+                    Putra Pertama dari:
+                </h4>
+
+            <h5>
+                Bapak M.Syarif
+            </h5>
+
+            <h5>
+                Ibu Mariyem
+            </h5>
+
+        </div>
+
+    <div class="family-separator">
+
+        <img
+            src="assets/icons/keris.png"
+            alt="Keris">
+
+    </div>
+
+    <div class="family-item">
+
+            <h2>
+                Rizki Amalia Puteri S.Hum.,S.Pd.,M.Pd.,Gr
+            </h2>
+
+                <h4>
+                    Putri Ketiga dari:
+                </h4>
+
+            <h5>
+                Bapak Sutarto
+            </h5>
+
+            <h5>
+                Ibu Mafruhah (Almh)
+            </h5>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- LOVE STORY PREMIUM -->
+<!-- ================================================= -->
+
+<section
+id="loveStory"
+class="section">
+
+    <div class="batik-overlay"></div>
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h5>
+                    Perjalanan Cinta Kami
+                </h5>
+
+                <h2>
+                Love Story
+                </h2>
+
+            </div>
+
+    <div class="timeline-wrapper">
+
+    <!-- ITEM 1 -->
+
+    <div class="timeline-item reveal-left">
+
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+
+    <div class="timeline-icon">
+    ❤️
+    </div>
+
+        <h3>
+            Pertama Bertemu
+        </h3>
+
+            <p>
+
+                Takdir mempertemukan kami
+                dalam sebuah pertemuan sederhana
+                yang kemudian menjadi awal
+                dari perjalanan panjang penuh cerita.
+
+            </p>
+
+    </div>
+
+    </div>
+
+    <!-- ITEM 2 -->
+
+    <div class="timeline-item reveal-right">
+
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+
+    <div class="timeline-icon">
+    💍
+    </div>
+
+        <h3>
+            Tunangan
+        </h3>
+
+            <span class="timeline-date">
+            23 Mei 2026
+            </span>
+
+                <p>
+
+                    Dengan restu keluarga,
+                    kami melangkah menuju hubungan
+                    yang lebih serius melalui acara
+                    pertunangan yang penuh kebahagiaan.
+
+                </p>
+
+    </div>
+
+    </div>
+
+    <!-- ITEM 3 -->
+
+    <div class="timeline-item reveal-left">
+
+    <div class="timeline-dot"></div>
+
+    <div class="timeline-card">
+
+    <div class="timeline-icon">
+    🤲
+    </div>
+
+        <h3>
+            Akad Nikah
+        </h3>
+
+            <span class="timeline-date">
+            02 Agustus 2026
+            </span>
+
+                <p>
+
+                    InsyaAllah kami akan mengikat
+                    janji suci pernikahan dan memulai
+                    lembaran baru kehidupan bersama.
+
+                </p>
+
+    </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+<!-- GARIS EMAS TIMELINE -->
+
+<div class="timeline-line"></div>
+
+<!-- ORNAMEN -->
+
+    <img
+    src="assets/image/arjuna.png"
+    class="timeline-wayang-left"
+    alt="Arjuna">
+
+    <img
+    src="assets/image/srikandi.png"
+    class="timeline-wayang-right"
+    alt="Srikandi">
+
+</section>
+
+<!-- ================================================= -->
+<!-- GALERI PREWEDDING -->
+<!-- ================================================= -->
+
+<section
+id="gallerySection"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+        <h5>
+        Momen Bahagia
+        </h5>
+
+        <h2>
+        Galeri Prewedding
+        </h2>
+
+        </div>
+
+    <div class="gallery-wrapper">
+
+    <!-- FOTO 1 -->
+
+    <div class="gallery-item reveal-up">
+
+        <img
+            class="gallery-img"
+            src="assets/image/gallery1.jpg"
+            loading="lazy"
+            alt="Gallery 1">
+
+                <div class="gallery-overlay">
+                    <span>Lihat Foto</span>
+                </div>
+
+    </div>
+
+        <!-- FOTO 2 -->
+
+    <div class="gallery-item reveal-up">
+
+        <img
+            class="gallery-img"
+            src="assets/image/gallery2.jpg"
+            loading="lazy"
+            alt="Gallery 2">
+
+                <div class="gallery-overlay">
+                    <span>Lihat Foto</span>
+                </div>
+
+    </div>
+
+    <!-- FOTO 3 -->
+
+    <div class="gallery-item reveal-up">
+
+        <img
+            class="gallery-img"
+            src="assets/image/gallery3.jpg"
+            loading="lazy"
+            alt="Gallery 3">
+
+                <div class="gallery-overlay">
+                    <span>Lihat Foto</span>
+                </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- LIGHTBOX FULLSCREEN -->
+<!-- ================================================= -->
+
+    <div id="lightbox">
+
+    <button
+    id="closeLightbox">
+
+    ✕
+
+    </button>
+
+    <div class="lightbox-content">
+
+        <img
+        id="lightboxImage"
+        src=""
+        alt="Preview">
+
+    </div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- QUOTE PERNIKAHAN -->
+<!-- ================================================= -->
+
+<section
+class="section quote-section">
+
+    <div class="container">
+
+        <div class="quote-card">
+
+            <div class="quote-icon">
+❝
+            </div>
+
+                <p>
+
+                    Pernikahan bukanlah tentang
+                    mencari seseorang yang sempurna,
+                    tetapi tentang belajar mencintai
+                    seseorang dengan sempurna.
+
+                </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- DETAIL ACARA -->
+<!-- ================================================= -->
+
+<section
+id="eventSection"
+class="section">
+
+    <div class="batik-overlay"></div>
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h5>
+                    Save The Date
+                </h5>
+
+                    <h2>
+                        Detail Acara Pernikahan
+                    </h2>
+
+            </div>
+
+<!-- ======================== -->
+<!-- AKAD NIKAH -->
+<!-- ======================== -->
+
+<div
+class="event-card reveal-up">
+
+    <div class="event-header">
+
+        <h3>
+            Akad Nikah
+        </h3>
+
+    </div>
+
+    <div class="event-body">
+
+        <div class="event-item">
+
+            <span><b>Hari</b></span>
+
+                <h4>
+                    Minggu
+                </h4>
+
+        </div>
+
+    <div class="event-item">
+
+        <span><b>Tanggal</b></span>
+
+            <h4>
+                02 Agustus 2026
+            </h4>
+
+    </div>
+
+    <div class="event-item">
+
+        <span><b>Waktu</b></span>
+
+            <h4>
+                09.00 WITA
+            </h4>
+
+    </div>
+
+    <div class="event-item">
+
+        <span> <b>Lokasi</b></span>
+
+            <p>
+
+                Jl. Motaha-Lambuya
+                Desa Sonai, Kec.Puriala
+                Kab.Konawe, Sulawesi Tenggara
+
+            </p>
+
+    </div>
+
+    </div>
+
+<!-- COUNTDOWN AKAD -->
+
+<div class="countdown-wrapper">
+
+    <h4>
+        Menuju Akad Nikah
+    </h4>
+
+        <div
+            id="akadCountdown"
+            class="countdown">
+
+            <div class="count-card">
+
+                <span id="akadDays">
+                    00
+                </span>
+
+                    <p>Hari</p>
+
+            </div>
+
+            <div class="count-card">
+
+                <span id="akadHours">
+                    00
+                </span>
+
+                    <p>Jam</p>
+
+            </div>
+
+            <div class="count-card">
+
+                <span id="akadMinutes">
+                    00
+                </span>
+
+                    <p>Menit</p>
+
+            </div>
+
+            <div class="count-card">
+
+                <span id="akadSeconds">
+                    00
+                </span>
+
+                    <p>Detik</p>
+
+            </div>
+
+        </div>
+
+</div>
+
+<!-- MAPS -->
+
+    <div class="maps-wrapper">
+
+        <iframe
+                src="https://www.google.com/maps/embed?pb=ISI_LINK_EMBED_DISINI"
+                loading="lazy"
+                allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <div class="event-buttons">
+
+        <a
+            href="https://maps.app.goo.gl/uL1iTfgvjNWTNEho6"
+            target="_blank"
+            class="btn-premium">
+
+            Buka Google Maps
+
+        </a>
+
+        <a
+        id="calendarBtn"
+        href="#"
+        class="btn-premium">
+
+        Simpan ke Kalender
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ======================== -->
+<!-- RESEPSI -->
+<!-- ======================== -->
+
+    <div
+    class="event-card reveal-up">
+
+        <div class="event-header">
+
+            <h3>
+                Resepsi
+            </h3>
+
+        </div>
+
+        <div class="event-body">
+
+            <div class="event-item">
+
+                <span><B>Hari</B></span>
+
+                    <h4>
+                        Minggu
+                    </h4>
+
+            </div>
+
+        <div class="event-item">
+
+            <span><B>Tanggal</B></span>
+
+                <h4>
+                    02 Agustus 2026
+                </h4>
+
+        </div>
+
+        <div class="event-item">
+
+            <span><B>Waktu</B></span>
+
+            <h4>
+                15.30 WITA
+            </h4>
+
+        </div>
+
+        <div class="event-item">
+
+            <span><B>Lokasi</B></span>
+
+                <p>
+
+                    Jl. Motaha-Lambuya
+                    Desa Sonai, Kec.Puriala
+                    Kab.Konawe, Sulawesi Tenggara
+
+                </p>
+
+        </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- NGUNDUH MANTU -->
+<!-- ================================================= -->
+
+<section
+id="ngunduhMantu"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>
+                Ngunduh Mantu
+            </h2>
+
+        </div>
+
+    <div class="event-card reveal-up">
+
+        <div class="event-body">
+
+            <div class="event-item">
+
+                <span><B>Hari</B></span>
+
+                    <h4>
+                        Selasa
+                    </h4>
+
+            </div>
+
+            <div class="event-item">
+
+                <span><b>Tanggal</b></span>
+
+                    <h4>
+                        04 Agustus 2026
+                    </h4>
+
+            </div>
+
+            <div class="event-item">
+
+                <span><b>Waktu</b></span>
+
+                    <h4>
+                        10.00 WITA
+                    </h4>
+
+            </div>
+
+            <div class="event-item">
+
+                <span><b>Lokasi</b></span>
+
+                    <p>
+
+                        Kediaman Bapak M.Syarif
+                        Jl. Tanjung Barat, Desa Sanuanggamo
+                        Kec.Tongauna Utara, SPB Lalonggowuna
+                        Kab.Konawe, Sulawesi Tenggara
+
+                    </p>
+
+            </div>
+
+        </div>
+
+<!-- COUNTDOWN -->
+
+    <div class="countdown-wrapper">
+
+        <h4>
+            Menuju Ngunduh Mantu
+        </h4>
+
+            <div
+                id="ngunduhCountdown"
+                class="countdown">
+
+                <div class="count-card">
+
+                    <span id="ngDays">
+                    00
+                    </span>
+
+                        <p><b>Hari</b></p>
+
+                </div>
+
+                <div class="count-card">
+
+                    <span id="ngHours">
+                    00
+                    </span>
+
+                        <p><b>Jam</b></p>
+
+                </div>
+
+                <div class="count-card">
+
+                    <span id="ngMinutes">
+                    00
+                    </span>
+
+                        <p><b>Menit</b></p>
+
+                </div>
+
+                <div class="count-card">
+
+                    <span id="ngSeconds">
+                    00
+                    </span>
+
+                        <p><b>Detik</b></p>
+
+                </div>
+
+            </div>
+
+    </div>
+
+<!-- MAPS -->
+
+    <div class="maps-wrapper">
+
+        <iframe
+                src="https://www.google.com/maps/embed?pb=ISI_LINK_EMBED_DISINI"
+                loading="lazy"
+                allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <div class="event-buttons">
+
+        <a
+            href="https://maps.app.goo.gl/4k7qj48kjs8i7zDTA"
+            target="_blank"
+            class="btn-premium">
+
+            Buka Google Maps
+
+        </a>
+
+    </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- LIVE STREAMING -->
+<!-- ================================================= -->
+
+<section
+id="liveStreaming"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h5>
+                Live Streaming Youtube
+            </h5>
+
+                <h2>
+                    Saksikan Acara Kami
+                </h2>
+
+        </div>
+
+            <div class="stream-card">
+
+                <div class="stream-video">
+
+                    <img
+                        src="assets/image/livestream.jpg"
+                        alt="Live Streaming">
+
+                </div>
+
+            <div class="stream-button">
+
+                <a
+                    href="https://youtube.com/@hy31official?si=7LZT8DSosMzXdGEJ"
+                    target="_blank"
+                    class="btn-premium">
+
+                    Tonton Live Streaming
+
+                </a>
+
+            </div>
+
+            </div>
+
+    </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- GIFT DIGITAL -->
+<!-- ================================================= -->
+
+<section
+id="giftSection"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h5>
+                Wedding Gift
+            </h5>
+
+            <h2>
+                Kirim Hadiah
+            </h2>
+
+        </div>
+
+    <div class="gift-wrapper">
+
+<!-- BANK BPD -->
+
+<div class="gift-card reveal-up">
+
+    <div class="gift-top">
+
+        <div class="gift-logo">
+            <img src="assets/icons/bpd.png" alt="Bank BPD">
+        </div>
+
+        <div class="gift-type">
+            BANK BPD
+        </div>
+
+    </div>
+
+    <div class="gift-number">
+        005 02010120601
+    </div>
+
+    <div class="gift-owner">
+        A.N Rizki Amalia Puteri
+    </div>
+
+    <button
+        class="copy-account"
+        data-copy="1234567890123">
+
+        Salin Nomor Rekening
+
+    </button>
+
+</div>
+
+<!-- GOPAY -->
+
+<div class="gift-card reveal-up">
+
+    <div class="gift-top">
+
+        <div class="gift-logo">
+            <img src="assets/icons/gopay.jpg" alt="GoPay">
+        </div>
+
+        <div class="gift-type">
+            E-Wallet GoPay
+        </div>
+
+    </div>
+
+    <div class="gift-number">
+        0821 8881 8949
+    </div>
+
+    <div class="gift-owner">
+        A.N Muh Soleh Salahudin
+    </div>
+
+    <button
+        class="copy-account"
+        data-copy="081234567890">
+
+        Salin Nomor GoPay
+
+    </button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- COPY SUCCESS POPUP -->
+<!-- ================================================= -->
+
+<div id="copyPopup">
+
+    <div class="copy-popup-content">
+
+    ✓ Nomor berhasil disalin
+
+    </div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- RSVP -->
+<!-- ================================================= -->
+
+<section
+id="rsvpSection"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h5>
+            Konfirmasi Kehadiran
+            </h5>
+
+            <h2>
+            RSVP
+            </h2>
+
+        </div>
+
+            <div class="rsvp-card">
+
+                <form id="rsvpForm">
+
+                    <div class="form-group">
+
+                        <input
+                            type="text"
+                            id="guestInput"
+                            placeholder="Nama Lengkap"
+                            required>
+
+                    </div>
+
+    <div class="form-group">
+
+        <input
+            type="number"
+            id="attendanceInput"
+            placeholder="Jumlah Kehadiran"
+            required>
+
+    </div>
+
+            <div class="form-group">
+
+                <select id="statusInput">
+
+                    <option value="Hadir">
+                        Hadir
+                    </option>
+
+                    <option value="Tidak Hadir">
+                        Tidak Hadir
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <textarea
+                    id="wishInput"
+                    placeholder="Tulis Ucapan dan Doa"
+                    required></textarea>
+
+            </div>
+
+                <button
+                    type="submit"
+                    class="btn-premium">
+
+                    Kirim Ucapan
+
+                </button>
+
+            </form>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- UCAPAN -->
+<!-- ================================================= -->
+
+<section
+id="wishSection"
+class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h5>
+                Ucapan & Doa
+            </h5>
+
+            <h2>
+                Kartu Ucapan
+            </h2>
+
+        </div>
+
+        <div id="wishContainer"></div>
+
+        <div class="wish-actions">
+
+            <button
+            id="toggleWishes"
+            class="btn-premium">
+
+            Lihat Semua Ucapan
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- PENUTUP -->
+<!-- ================================================= -->
+
+<section
+id="closingSection"
+class="section">
+
+    <div class="closing-overlay"></div>
+
+        <div class="container">
+
+            <div class="closing-content">
+
+                <h2>
+                    Terima Kasih
+                </h2>
+
+                    <p>
+
+                        Merupakan suatu kehormatan
+                        dan kebahagiaan bagi kami
+                        apabila Bapak/Ibu/Saudara/i
+                        berkenan hadir dan memberikan
+                        doa restu kepada kedua mempelai.
+
+                    </p>
+
+    <div class="closing-prayer">
+
+    <p>
+
+    بَارَكَ اللَّهُ لَكُمَا
+    وَبَارَكَ عَلَيْكُمَا
+    وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+
+    </p>
+
+    <p>
+
+    Semoga Allah memberkahi kalian berdua,
+    melimpahkan keberkahan atas kalian,
+    dan menghimpun kalian dalam kebaikan.
+
+    </p>
+
+</div>
+
+    <h3>
+
+    Wassalamu'alaikum
+    Warahmatullahi
+    Wabarakatuh
+
+    </h3>
+
+</div>
+
+</div>
+
+<!-- ORNAMEN -->
+
+<div class="closing-wayang-left">
+
+    <img
+    src="assets/image/arjuna.png"
+    alt="Arjuna">
+
+</div>
+
+<div class="closing-wayang-right">
+
+    <img
+    src="assets/image/srikandi.png"
+    alt="Srikandi">
+
+</div>
+
+</section>
+
+<!-- ================================================= -->
+<!-- FOOTER -->
+<!-- ================================================= -->
+
+<footer id="footer">
+
+    <div class="footer-pattern"></div>
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <img
+                    src="assets/image/gunungan.png"
+                    class="footer-logo"
+                    alt="Gunungan">
+
+                        <h3>
+                            The Wedding R & U
+                        </h3>
+
+                        <p>
+                            Powered By
+                        </p>
+
+                            <a
+                                href="https://www.instagram.com/desain31_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                target="_blank"
+                                class="instagram-link">
+
+                                    <img
+                                        src="assets/icons/instagram.png"
+                                        alt="Instagram">
+
+                                            <span>
+                                                @desain31_
+                                            </span>
+
+                            </a>
+
+    <div class="copyright">
+
+        ©
+        <span id="currentYear"></span>
+
+            All Rights Reserved
+
+    </div>
+
+            </div>
+
+        </div>
+
+</footer>
+
+</main>
+
+<!-- ================================================= -->
+<!-- FLOATING MUSIC PLAYER -->
+<!-- ================================================= -->
+
+<div id="musicPlayer">
+
+    <button id="musicToggle">
+
+        ♫
+
+    </button>
+
+<div class="music-control">
+
+    <input
+        type="range"
+        id="volumeSlider"
+        min="0"
+        max="1"
+        step="0.1"
+        value="0.5">
+
+</div>
+
+</div>
+
+<!-- ================================================= -->
+<!-- BACK TO TOP -->
+<!-- ================================================= -->
+
+<button id="backToTop">
+
+↑
+
+</button>
+
+<!-- ================================================= -->
+<!-- RIPPLE EFFECT CONTAINER -->
+<!-- ================================================= -->
+
+<div id="rippleContainer"></div>
+
+<!-- ================================================= -->
+<!-- SCRIPT -->
+<!-- ================================================= -->
+
+<script type="module" src="script.js"></script>
+
+<!-- ===================================== -->
+<!-- LIGHTBOX GALLERY -->
+<!-- ===================================== -->
+
+<div id="lightbox">
+
+    <span id="closeLightbox">&times;</span>
+
+    <img
+    id="lightboxImg"
+    src=""
+    alt="Preview">
+
+</div>
+
+</body>
+</html>

@@ -3630,3 +3630,55 @@ will-change:transform;
         transform: translateY(0) rotate(3deg);
     }
 }
+
+@media (max-width: 768px){
+
+    /* JANUR */
+    .section-ornament-top{
+        top: 40px;
+        left: -30px;
+    }
+
+    .section-ornament-top img{
+        width: 220px;
+    }
+
+    .section-ornament-bottom{
+        right: -30px;
+        bottom: 0;
+    }
+
+    .section-ornament-bottom img{
+        width: 220px;
+    }
+
+    /* WAYANG */
+    .small-arjuna,
+    .small-srikandi{
+        width: 70px;
+        opacity: .08;
+    }
+
+    .wayang-left,
+    .wayang-right{
+        height: 40%;
+        opacity: .08;
+    }
+
+    /* ORNAMEN QURAN */
+    .quran-ornament-left,
+    .quran-ornament-right{
+        width: 60px;
+        top: 90%;
+        opacity: .2;
+    }
+
+    .quran-ornament-left{
+        left: -15px;
+    }
+
+    .quran-ornament-right{
+        right: -15px;
+    }
+
+}

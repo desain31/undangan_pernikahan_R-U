@@ -2740,7 +2740,13 @@ opacity:.7;
    FLOATING MUSIC
 ======================================================= */
 
+/* =======================================================
+   FLOATING MUSIC
+======================================================= */
+
 #musicPlayer{
+
+display:none; /* sembunyikan dulu */
 
 position:fixed;
 
@@ -2749,7 +2755,6 @@ bottom:25px;
 
 z-index:9999;
 
-display:flex;
 align-items:center;
 gap:12px;
 

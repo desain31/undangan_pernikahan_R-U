@@ -186,6 +186,19 @@ mainContent.style.display =
 
 }
 
+/* TAMPILKAN MUSIC PLAYER */
+const musicPlayer =
+document.getElementById(
+"musicPlayer"
+);
+
+if(musicPlayer){
+
+musicPlayer.style.display =
+"flex";
+
+}
+
 if(music){
 
 music.play();

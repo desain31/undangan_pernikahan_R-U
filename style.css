@@ -2740,56 +2740,6 @@ cursor:pointer;
 
 }
 
-.music-control{
-
-display:flex;
-align-items:center;
-
-padding:0;
-
-background:transparent;
-backdrop-filter:none;
-
-}
-
-.music-control input{
-
-width:120px;
-
-}
-
-/* =======================================================
-   BACK TO TOP
-======================================================= */
-
-#backToTop{
-
-position:fixed;
-
-right:20px;
-bottom:20px;
-
-width:55px;
-height:55px;
-
-border:none;
-
-border-radius:50%;
-
-background:var(--gold);
-
-color:#111;
-
-font-size:1.2rem;
-
-cursor:pointer;
-
-z-index:999;
-
-display:none;
-
-}
-
 /* =======================================================
    COPY POPUP
 ======================================================= */
@@ -3358,17 +3308,6 @@ bottom:85px;
 
 width:50px;
 height:50px;
-
-}
-
-#backToTop{
-
-width:50px;
-height:50px;
-
-right:10px;
-
-bottom:15px;
 
 }
 

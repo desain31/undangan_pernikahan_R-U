@@ -70,9 +70,6 @@ document.getElementById("musicToggle");
 const volumeSlider =
 document.getElementById("volumeSlider");
 
-const backToTop =
-document.getElementById("backToTop");
-
 const currentYear =
 document.getElementById("currentYear");
 
@@ -262,47 +259,6 @@ e => {
 
 music.volume =
 e.target.value;
-
-}
-);
-
-}
-
-/* ======================================================
-   BACK TO TOP
-====================================================== */
-
-window.addEventListener(
-"scroll",
-() => {
-
-if(window.scrollY > 500){
-
-backToTop.style.display =
-"flex";
-
-}else{
-
-backToTop.style.display =
-"none";
-
-}
-
-}
-);
-
-if(backToTop){
-
-backToTop.addEventListener(
-"click",
-() => {
-
-window.scrollTo({
-
-top:0,
-behavior:"smooth"
-
-});
 
 }
 );

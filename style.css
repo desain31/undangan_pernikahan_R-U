@@ -3705,3 +3705,24 @@ will-change:transform;
     }
 
 }
+
+@media screen and (max-width:768px){
+
+    #openingScreen .wayang-left,
+    #openingScreen .wayang-right,
+    #openingScreen .gunungan-center,
+    #openingScreen .pendopo-bg{
+        display:none !important;
+    }
+
+    #openingScreen .flower-left,
+    #openingScreen .flower-right{
+        width:140px !important;
+    }
+
+    #openingScreen .couple-cover img{
+        width:320px !important;
+        max-width:90vw !important;
+    }
+
+}

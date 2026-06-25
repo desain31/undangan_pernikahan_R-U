@@ -3689,7 +3689,7 @@ will-change:transform;
     .wayang-left,
     .wayang-right,
     .gunungan-center{
-        display:none !important;
+        display:block;
     }
 
 }

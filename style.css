@@ -3669,43 +3669,6 @@ will-change:transform;
 
 }
 
-/* =========================================
-   ANDROID / MOBILE OPENING CLEAN
-========================================= */
-
-@media (max-width:768px){
-
-/* HAPUS WAYANG OPENING */
-    .wayang-left,
-    .wayang-right{
-        display:none !important;
-    }
-
-    /* HAPUS GUNUNGAN */
-    .gunungan-center{
-        display:none !important;
-    }
-
-    /* HAPUS BACKGROUND PENDOPO */
-    .pendopo-bg{
-        display:none !important;
-    }
-
-    /* PERBESAR FOTO PASANGAN */
-    .couple-cover img{
-        width:320px !important;
-        max-width:90vw;
-    }
-
-    /* BUNGA SEDIKIT LEBIH KECIL */
-    .flower-left,
-    .flower-right{
-        width:120px !important;
-        opacity:.8 !important;
-    }
-
-}
-
 @media screen and (max-width:768px){
 
     #openingScreen .wayang-left,
@@ -3727,6 +3690,14 @@ will-change:transform;
 
 }
 
-body{
-    background:red !important;
+@media screen and (max-width:1024px){
+
+    .opening-background,
+    .pendopo-bg,
+    .wayang-left,
+    .wayang-right,
+    .gunungan-center{
+        display:none !important;
+    }
+
 }

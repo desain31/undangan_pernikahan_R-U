@@ -89,7 +89,7 @@ new Date().getFullYear();
 
 /* ======================================================
    URL GUEST NAME
-   index.html?to=Yusuf
+   index.html?to=Yusuf%20dan%20Herna
 ====================================================== */
 
 const params =

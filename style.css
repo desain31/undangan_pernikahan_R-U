@@ -3589,12 +3589,14 @@ will-change:transform;
     .section-ornament-top{
         top: 80px;
         left: -20px;
+        display:block;
     }
 
     .section-ornament-bottom{
         top: 80px;
         right: -20px;
         bottom: auto;
+        display:block;
     }
 
     .section-ornament-top img,
@@ -3606,77 +3608,36 @@ will-change:transform;
     /* WAYANG OPENING */
     .wayang-left,
     .wayang-right{
+        display:block;
         height: 75%;
         opacity: .18;
     }
 
-    /* WAYANG SECTION */
-    .small-arjuna,
-    .small-srikandi{
-        width: 100px;
-        opacity: .12;
-    }
-
     /* GUNUNGAN */
     .gunungan-center{
+        display:block;
         width: 120px;
         top: 40px;
         opacity: .25;
     }
 
-    /* FLOWER OPENING */
+    /* PENDOPO */
+    .pendopo-bg{
+        display:block;
+        opacity:.25;
+    }
+
+    /* FLOWER */
     .flower-left,
     .flower-right{
-        width: 180px;
-        opacity: .7;
-    }
-
-    /* ORNAMEN QURAN */
-    .quran-ornament-left,
-    .quran-ornament-right{
-        width: 120px;
-        opacity: .45;
-        top: 50%;
-    }
-
-    .quran-ornament-left{
-        left: -30px;
-    }
-
-    .quran-ornament-right{
-        right: -30px;
-    }
-
-    /* WAYANG CLOSING */
-    .closing-wayang-left img,
-    .closing-wayang-right img{
-        width: 140px;
-        opacity: .25;
-    }
-
-    .closing-wayang-left{
-        left: -15px;
-    }
-
-    .closing-wayang-right{
-        right: -15px;
-    }
-
-    /* ASSALAMUALAIKUM TIDAK TERTUTUP NAVBAR */
-    #intro{
-        padding-top: 170px;
+        display:block;
+        width:180px;
+        opacity:.7;
     }
 
 }
 
 @media screen and (max-width:768px){
-
-    #openingScreen .wayang-left,
-    #openingScreen .wayang-right,
-    #openingScreen .gunungan-center,
-    #openingScreen .pendopo-bg{
-        display:none !important;
-    }
 
     #openingScreen .flower-left,
     #openingScreen .flower-right{

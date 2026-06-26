@@ -3553,20 +3553,20 @@ will-change:transform;
 
 #openingScreen .wayang-left{
     position: absolute;
-    left: 10px;        /* keluar sedikit ke kiri */
+    left: -20px;        /* keluar sedikit ke kiri */
     bottom: -20px;
-    width: 30px;       /* lebih kecil */
-    height: auto;
+    width: 10px;       /* lebih kecil */
+    height: 10px;
     opacity: .18;
     z-index: 1;
 }
 
 #openingScreen .wayang-right{
     position: absolute;
-    right: -10px;       /* keluar sedikit ke kanan */
+    right: -20px;       /* keluar sedikit ke kanan */
     bottom: -20px;
-    width: 30px;
-    height: auto;
+    width: 10px;
+    height: 10px;
     opacity: .18;
     z-index: 1;
 }

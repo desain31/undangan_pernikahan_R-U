@@ -3547,28 +3547,28 @@ will-change:transform;
         opacity:.25;
     }
 
- /* ===================== */
+/* ===================== */
 /* WAYANG MOBILE */
 /* ===================== */
 
 #openingScreen .wayang-left{
-    position:absolute;
-    left:0;
-    bottom:0;
-    width:80px;
-    height:auto;
-    opacity:.18;
-    z-index:2;
+    position: absolute;
+    left: -8px;
+    bottom: 0;
+    width: 105px;
+    height: auto;
+    opacity: .18;
+    z-index: 2;
 }
 
 #openingScreen .wayang-right{
-    position:absolute;
-    right:0;
-    bottom:0;
-    width:80px;
-    height:auto;
-    opacity:.18;
-    z-index:2;
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    width: 105px;
+    height: auto;
+    opacity: .18;
+    z-index: 2;
 }
 
     /* Gunungan */

@@ -3553,7 +3553,7 @@ will-change:transform;
 
 #openingScreen .wayang-left{
     position: absolute;
-    left: -10px;        /* keluar sedikit ke kiri */
+    left: 10px;        /* keluar sedikit ke kiri */
     bottom: -20px;
     width: 30px;       /* lebih kecil */
     height: auto;

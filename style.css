@@ -3555,7 +3555,7 @@ will-change:transform;
     position: absolute;
     left: -15px;        /* keluar sedikit ke kiri */
     bottom: -20px;
-    width: 120px;       /* lebih kecil */
+    width: 20px;       /* lebih kecil */
     height: auto;
     opacity: .18;
     z-index: 1;
@@ -3565,7 +3565,7 @@ will-change:transform;
     position: absolute;
     right: -15px;       /* keluar sedikit ke kanan */
     bottom: -20px;
-    width: 120px;
+    width: 20px;
     height: auto;
     opacity: .18;
     z-index: 1;

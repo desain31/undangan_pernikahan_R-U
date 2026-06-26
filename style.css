@@ -3551,26 +3551,24 @@ will-change:transform;
 /* WAYANG MOBILE */
 /* ===================== */
 
-/* WAYANG KIRI */
 #openingScreen .wayang-left{
-    position: absolute;
-    left: -15px;
-    bottom: 0;
-    width: 90px;
-    height: auto;
-    opacity: .18;
-    z-index: 2;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:80px;
+    height:auto;
+    opacity:.18;
+    z-index:2;
 }
 
-/* WAYANG KANAN */
 #openingScreen .wayang-right{
-    position: absolute;
-    right: -15px;
-    bottom: 0;
-    width: 90px;
-    height: auto;
-    opacity: .18;
-    z-index: 2;
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:80px;
+    height:auto;
+    opacity:.18;
+    z-index:2;
 }
 
     /* Gunungan */

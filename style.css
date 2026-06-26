@@ -3553,9 +3553,9 @@ will-change:transform;
 
 #openingScreen .wayang-left{
     position: absolute;
-    left: -25px;        /* keluar sedikit ke kiri */
+    left: -10px;        /* keluar sedikit ke kiri */
     bottom: -20px;
-    width: 50px;       /* lebih kecil */
+    width: 130px;       /* lebih kecil */
     height: auto;
     opacity: .18;
     z-index: 1;
@@ -3563,9 +3563,9 @@ will-change:transform;
 
 #openingScreen .wayang-right{
     position: absolute;
-    right: -25px;       /* keluar sedikit ke kanan */
+    right: -10px;       /* keluar sedikit ke kanan */
     bottom: -20px;
-    width: 50px;
+    width: 130px;
     height: auto;
     opacity: .18;
     z-index: 1;

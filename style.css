@@ -3528,128 +3528,82 @@ will-change:transform;
 
 @media screen and (max-width:768px){
 
-    /* ====================
-       JANUR
-    ==================== */
-
-    .section-ornament-top{
-        top:60px;
-        left:-25px;
-    }
-
-    .section-ornament-bottom{
-        top:60px;
-        right:-25px;
-        bottom:auto;
-    }
-
-    .section-ornament-top img,
-    .section-ornament-bottom img{
-        width:200px;
-        opacity:.7;
-    }
-
-    /* ====================
-       BACKGROUND PENDOPO
-    ==================== */
-
+    /* Background Pendopo */
     #openingScreen{
-    position: relative;
-    overflow: hidden;
-}
+        overflow:hidden;
+    }
 
-.opening-background{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    z-index:0;
-}
+    #openingScreen .opening-background{
+        position:absolute;
+        inset:0;
+        z-index:0;
+    }
 
-.pendopo-bg{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    opacity:.25;
-}
+    #openingScreen .pendopo-bg{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        object-position:center;
+        opacity:.25;
+    }
 
-    /* ====================
-       WAYANG
-    ==================== */
-
+    /* Wayang */
     #openingScreen .wayang-left{
-    position:absolute;
-    left:-60px;
-    bottom:0;
-    height:88%;
-    opacity:.18;
-    z-index:1;
-}
+        position:absolute;
+        left:-18px;
+        bottom:0;
+        height:52%;
+        opacity:.22;
+        z-index:2;
+    }
 
-#openingScreen .wayang-right{
-    position:absolute;
-    right:-60px;
-    bottom:0;
-    height:88%;
-    opacity:.18;
-    z-index:1;
-}
+    #openingScreen .wayang-right{
+        position:absolute;
+        right:-18px;
+        bottom:0;
+        height:52%;
+        opacity:.22;
+        z-index:2;
+    }
 
-    /* ====================
-       GUNUNGAN
-    ==================== */
+    /* Gunungan */
+    #openingScreen .gunungan-center{
+        position:absolute;
+        top:35px;
+        left:50%;
+        transform:translateX(-50%);
+        width:105px;
+        opacity:.28;
+        z-index:2;
+    }
 
-    .gunungan-center{
-    position:absolute;
-    top:40px;
-    left:50%;
-    transform:translateX(-50%);
-    width:120px;
-    opacity:.28;
-}
-
-    /* ====================
-       FLOWER
-    ==================== */
-
+    /* Bunga */
     #openingScreen .flower-left,
     #openingScreen .flower-right{
-        width:130px;
-        opacity:.7;
+        width:135px;
+        opacity:.75;
     }
 
-    /* ====================
-       CONTENT
-    ==================== */
-
-    #openingScreen .opening-content{
-        position:relative;
-        z-index:5;
-    }
-
-    /* ====================
-       FOTO
-    ==================== */
-
+    /* Bingkai Foto */
     .couple-cover{
-    width:300px;
-    height:480px;
-    margin:20px auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
+        width:290px;
+        height:455px;
+        margin:20px auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        overflow:hidden;
+    }
 
-.couple-cover img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-}
+    .couple-cover img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        object-position:center center;
+        display:block;
+    }
 
-    /* ====================
-       TEXT
-    ==================== */
-
+    /* Judul */
     .couple-title{
         font-size:4rem;
     }
@@ -3661,5 +3615,4 @@ will-change:transform;
     #guestName{
         font-size:2.3rem;
     }
-
 }

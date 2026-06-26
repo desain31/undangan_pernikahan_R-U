@@ -3522,137 +3522,149 @@ will-change:transform;
     }
 }
 
-@media (max-width: 768px){
+/* ================================
+   MOBILE OPENING
+================================ */
 
-    /* JANUR */
+@media screen and (max-width:768px){
+
+    /* ====================
+       JANUR
+    ==================== */
+
     .section-ornament-top{
-        top: 80px;
-        left: -20px;
-        display:block;
+        top:60px;
+        left:-25px;
     }
 
     .section-ornament-bottom{
-        top: 80px;
-        right: -20px;
-        bottom: auto;
-        display:block;
+        top:60px;
+        right:-25px;
+        bottom:auto;
     }
 
     .section-ornament-top img,
     .section-ornament-bottom img{
-        width: 240px;
-        opacity: .7;
-    }
-
-    /* WAYANG OPENING MOBILE */
-#openingScreen .wayang-left{
-    position:absolute;
-    left:-35px;
-    bottom:0;
-    height:65%;
-    opacity:.18;
-    z-index:2;
-}
-
-#openingScreen .wayang-right{
-    position:absolute;
-    right:-35px;
-    bottom:0;
-    height:65%;
-    opacity:.18;
-    z-index:2;
-}
-
-    /* GUNUNGAN */
-    .gunungan-center{
-        display:block;
-        width: 120px;
-        top: 40px;
-        opacity: .25;
-    }
-
-    /* PENDOPO */
-    .pendopo-bg{
-        display:block;
-        opacity:.25;
-    }
-
-    /* FLOWER */
-    .flower-left,
-    .flower-right{
-        display:block;
-        width:180px;
+        width:200px;
         opacity:.7;
     }
 
-}
+    /* ====================
+       BACKGROUND PENDOPO
+    ==================== */
 
-@media screen and (max-width:768px){
+    #openingScreen .opening-background{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        z-index:0;
+    }
+
+    #openingScreen .pendopo-bg{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        object-position:center bottom;
+        opacity:.20;
+    }
+
+    /* ====================
+       WAYANG
+    ==================== */
+
+    #openingScreen .wayang-left{
+        position:absolute;
+        left:-10px;
+        bottom:0;
+        width:70px;
+        height:auto;
+        opacity:.18;
+        z-index:2;
+    }
+
+    #openingScreen .wayang-right{
+        position:absolute;
+        right:-10px;
+        bottom:0;
+        width:70px;
+        height:auto;
+        opacity:.18;
+        z-index:2;
+    }
+
+    /* ====================
+       GUNUNGAN
+    ==================== */
+
+    #openingScreen .gunungan-center{
+        position:absolute;
+        top:30px;
+        left:50%;
+        transform:translateX(-50%);
+        width:90px;
+        opacity:.25;
+        z-index:1;
+    }
+
+    /* ====================
+       FLOWER
+    ==================== */
 
     #openingScreen .flower-left,
     #openingScreen .flower-right{
-        width:140px !important;
+        width:130px;
+        opacity:.7;
     }
 
-    #openingScreen .couple-cover img{
-        width:320px !important;
-        max-width:90vw !important;
+    /* ====================
+       CONTENT
+    ==================== */
+
+    #openingScreen .opening-content{
+        position:relative;
+        z-index:5;
     }
-    
-    /* Background Pendopo */
-#openingScreen .pendopo-bg{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    opacity:.22;
-}
 
-/* Gunungan */
-#openingScreen .gunungan-center{
-    position:absolute;
-    top:30px;
-    left:50%;
-    transform:translateX(-50%);
-    width:100px;
-    opacity:.25;
-}
+    /* ====================
+       FOTO
+    ==================== */
 
-    /* PROFIL OPENING MOBILE */
-.couple-cover{
-    width: 280px;
-    height: 420px;
-    margin: 20px auto;
+    .couple-cover{
+        width:280px;
+        height:420px;
+        margin:20px auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
 
-.couple-cover img{
-    width: 88%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
+    .couple-cover img{
+        width:88%;
+        display:block;
+        margin:auto;
+    }
 
-.couple-title{
-    font-size: 4rem;
-}
+    /* ====================
+       TEXT
+    ==================== */
 
-.guest-container{
-    margin-top: 20px;
-}
+    .couple-title{
+        font-size:4rem;
+    }
 
-#guestName{
-    font-size: 2.3rem;
-}
+    .guest-container{
+        margin-top:20px;
+    }
 
-/* bunga atas */
-.flower-left,
-.flower-right{
-    width: 120px;
-}
+    #guestName{
+        font-size:2.3rem;
+    }
 
 }

@@ -151,11 +151,15 @@ z-index:2;
 
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
 
-#introSection{
-    padding-top:140px;
-}
+    #header{
+        display:none !important;
+    }
+
+    #introSection{
+        padding-top:60px;
+    }
 
 }
 

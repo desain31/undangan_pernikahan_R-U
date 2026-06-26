@@ -3556,7 +3556,7 @@ will-change:transform;
     left: -20px;        /* keluar sedikit ke kiri */
     bottom: -20px;
     width: 10px;       /* lebih kecil */
-    height: 10px;
+    height: auto;
     opacity: .18;
     z-index: 1;
 }
@@ -3566,7 +3566,7 @@ will-change:transform;
     right: -20px;       /* keluar sedikit ke kanan */
     bottom: -20px;
     width: 10px;
-    height: 10px;
+    height: auto;
     opacity: .18;
     z-index: 1;
 }

@@ -3544,13 +3544,24 @@ will-change:transform;
         opacity: .7;
     }
 
-    /* WAYANG OPENING */
-    .wayang-left,
-    .wayang-right{
-        display:block;
-        height: 75%;
-        opacity: .18;
-    }
+    /* WAYANG OPENING MOBILE */
+#openingScreen .wayang-left{
+    position:absolute;
+    left:-35px;
+    bottom:0;
+    height:65%;
+    opacity:.18;
+    z-index:2;
+}
+
+#openingScreen .wayang-right{
+    position:absolute;
+    right:-35px;
+    bottom:0;
+    height:65%;
+    opacity:.18;
+    z-index:2;
+}
 
     /* GUNUNGAN */
     .gunungan-center{
@@ -3587,6 +3598,26 @@ will-change:transform;
         width:320px !important;
         max-width:90vw !important;
     }
+    
+    /* Background Pendopo */
+#openingScreen .pendopo-bg{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:.22;
+}
+
+/* Gunungan */
+#openingScreen .gunungan-center{
+    position:absolute;
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+    width:100px;
+    opacity:.25;
+}
 
     /* PROFIL OPENING MOBILE */
 .couple-cover{
@@ -3623,17 +3654,5 @@ will-change:transform;
 .flower-right{
     width: 120px;
 }
-
-}
-
-@media screen and (max-width:1024px){
-
-    .opening-background,
-    .pendopo-bg,
-    .wayang-left,
-    .wayang-right,
-    .gunungan-center{
-        display:block;
-    }
 
 }

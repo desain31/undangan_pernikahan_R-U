@@ -2894,6 +2894,17 @@ height:450px;
 
 }
 
+/* ===========================================
+   HIDE JANUR MOBILE
+=========================================== */
+
+.section-ornament-top,
+.section-ornament-bottom{
+
+    display:none !important;
+
+}
+
 .section-title h2{
 
     font-size:2rem;

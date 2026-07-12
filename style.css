@@ -2823,12 +2823,6 @@ height:450px;
 
 }
 
-.section-title h5{
-
-    font-size:.8rem;
-
-}
-
 .couple-title{
 
     font-size:2.8rem;
@@ -2844,12 +2838,6 @@ height:450px;
 .bismillah{
 
     font-size:1.1rem;
-
-}
-
-.intro-card{
-
-    padding:35px;
 
 }
 
@@ -2925,6 +2913,41 @@ height:450px;
 .closing-content h2{
 
     font-size:2.3rem;
+
+}
+
+/* ==========================================
+   HOME INTRO MOBILE
+========================================== */
+
+#homeIntro .section-title h5{
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:.9rem;
+    font-weight:600;
+    letter-spacing:.5px;
+    line-height:1.5;
+    text-transform:none;
+
+    width:95%;
+    margin:0 auto 18px;
+    text-align:center;
+
+}
+
+#homeIntro .intro-card{
+
+    width:95%;
+    margin:auto;
+    padding:28px 22px;
+
+}
+
+#homeIntro .intro-card p{
+
+    font-size:1rem;
+    line-height:2;
+    text-align:center;
 
 }
 

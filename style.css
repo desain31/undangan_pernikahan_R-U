@@ -3346,7 +3346,7 @@ height:450px;
 
 #ngunduhMantu .event-subtitle{
 
-    color:#ffffff;
+    color:#ffffff !important;
 
     font-size:.8rem;
 
@@ -3355,8 +3355,6 @@ height:450px;
     margin-top:8px;
 
     text-transform:uppercase;
-
-    opacity:.9;
 
 }
 

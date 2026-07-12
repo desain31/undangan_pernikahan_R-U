@@ -1575,18 +1575,18 @@ const revealObserver = new IntersectionObserver((entries) => {
 
             entry.target.classList.add("show");
 
+        }else{
+
+            entry.target.classList.remove("show");
+
         }
 
     });
 
 },{
-
     threshold:0.2
-
 });
 
-revealElements.forEach(item=>{
-
+revealElements.forEach(item => {
     revealObserver.observe(item);
-
 });

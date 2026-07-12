@@ -3399,3 +3399,27 @@ will-change:transform;
     #guestName{
         font-size:2.3rem;
     }
+
+/* =======================================================
+   SCROLL REVEAL ANIMATION
+======================================================= */
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:
+    opacity .9s ease,
+    transform .9s ease;
+
+}
+
+.reveal.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}

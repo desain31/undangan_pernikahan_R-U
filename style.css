@@ -3159,6 +3159,74 @@ height:450px;
 }
 
 /* ======================================
+   NGUNDUH MANTU MOBILE
+====================================== */
+
+#ngunduhMantu .section-title h2{
+
+    font-size:2rem;
+
+}
+
+#ngunduhMantu .event-subtitle{
+
+    font-size:.8rem;
+
+    letter-spacing:1px;
+
+    margin-top:8px;
+
+}
+
+#ngunduhMantu .event-card{
+
+    padding:20px;
+
+    border-radius:22px;
+
+}
+
+#ngunduhMantu .event-body{
+
+    gap:18px;
+
+}
+
+#ngunduhMantu .info-box{
+
+    padding:18px;
+
+}
+
+#ngunduhMantu .info-box h4{
+
+    font-size:1rem;
+
+    margin-bottom:10px;
+
+}
+
+#ngunduhMantu .info-box p{
+
+    font-size:.95rem;
+
+    line-height:1.8;
+
+}
+
+#ngunduhMantu .maps-wrapper{
+
+    margin-top:25px;
+
+}
+
+#ngunduhMantu .maps-wrapper iframe{
+
+    height:250px;
+
+}
+
+/* ======================================
    CLOSING MOBILE
 ====================================== */
 

@@ -1567,22 +1567,29 @@ console.log(
 
 const revealItems = document.querySelectorAll(".reveal-up, .reveal-left");
 
-const revealObserver = new IntersectionObserver((entries) => {
+function revealOnScroll(){
 
-    entries.forEach((entry) => {
+    const windowHeight = window.innerHeight;
 
-        if (entry.intersectionRatio > 0.2) {
-            entry.target.classList.add("show");
-        } else {
-            entry.target.classList.remove("show");
+    revealItems.forEach(item=>{
+
+        const top = item.getBoundingClientRect().top;
+        const bottom = item.getBoundingClientRect().bottom;
+
+        if(top < windowHeight - 100 && bottom > 100){
+
+            item.classList.add("show");
+
+        }else{
+
+            item.classList.remove("show");
+
         }
 
     });
 
-}, {
-    threshold: [0, 0.2, 1]
-});
+}
 
-revealItems.forEach((item) => {
-    revealObserver.observe(item);
-});
+window.addEventListener("scroll", revealOnScroll);
+
+window.addEventListener("load", revealOnScroll);

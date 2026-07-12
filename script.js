@@ -1565,34 +1565,24 @@ console.log(
    PREMIUM SCROLL REVEAL
 ======================================================= */
 
-const revealItems = document.querySelectorAll(
+const revealItems = document.querySelectorAll(".reveal-up, .reveal-left");
 
-'.reveal-up,.reveal-left'
+const revealObserver = new IntersectionObserver((entries) => {
 
-);
+    entries.forEach((entry) => {
 
-const revealObserver = new IntersectionObserver((entries)=>{
-
-    entries.forEach(entry=>{
-
-        if(entry.isIntersecting){
-
+        if (entry.intersectionRatio > 0.2) {
             entry.target.classList.add("show");
-
-        }else{
-
+        } else {
             entry.target.classList.remove("show");
-
         }
 
     });
 
-},{
-    threshold:0.15
+}, {
+    threshold: [0, 0.2, 1]
 });
 
-revealItems.forEach(item=>{
-
+revealItems.forEach((item) => {
     revealObserver.observe(item);
-
 });

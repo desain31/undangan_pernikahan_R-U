@@ -2959,6 +2959,61 @@ height:450px;
     text-align:center;
 
 }
+
+/* ===========================================
+   FAMILY SECTION MOBILE
+=========================================== */
+
+#familySection .family-card{
+    padding:20px;
+}
+
+#familySection .family-photo img{
+    width:100%;
+    max-width:330px;
+    height:auto;
+    border-radius:20px;
+    margin:auto;
+    display:block;
+}
+
+#familySection .family-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:25px;
+    margin-top:25px;
+}
+
+#familySection .family-item{
+    width:100%;
+}
+
+#familySection .family-item h2{
+    font-size:1.4rem;
+    line-height:1.5;
+    margin-bottom:12px;
+}
+
+#familySection .family-item h4{
+    font-size:1rem;
+    margin-bottom:8px;
+}
+
+#familySection .family-item h5{
+    font-size:.95rem;
+    line-height:1.7;
+}
+
+#familySection .family-separator{
+    margin:5px 0;
+}
+
+#familySection .family-separator img{
+    width:40px;
+    height:auto;
+}
 }
 /* =======================================================
    SMALL PHONE

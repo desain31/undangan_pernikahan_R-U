@@ -1016,104 +1016,129 @@ opacity:0.35;
    FAMILY SECTION
 ======================================================= */
 
-.family-card{
+.family-wrapper{
 
-max-width:1100px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:70px;
 
-margin:auto;
+    margin-top:60px;
 
-padding:50px;
-
-border-radius:30px;
-
-background:
-rgba(255,255,255,.04);
-
-backdrop-filter:
-blur(10px);
-
-display:flex;
-
-flex-direction:column;
-
-gap:50px;
-
-border:
-1px solid rgba(255,255,255,.08);
+    flex-wrap:wrap;
 
 }
 
-.family-photo{
+.family-person{
 
-width:100%;
+    width:360px;
 
-overflow:hidden;
-
-border-radius:25px;
+    text-align:center;
 
 }
 
-.family-photo img{
+.family-frame{
 
-width:100%;
+    width:270px;
+    height:340px;
 
-height:550px;
+    margin:auto;
 
-object-fit:cover;
+    border:5px solid var(--gold);
 
-}
+    border-radius:25px;
 
-.family-content{
+    overflow:hidden;
 
-display:grid;
-
-grid-template-columns:
-1fr auto 1fr;
-
-gap:50px;
-
-align-items:center;
+    box-shadow:
+    0 0 35px rgba(201,163,92,.35);
 
 }
 
-.family-item{
+.family-frame img{
 
-text-align:center;
+    width:100%;
+    height:100%;
 
-}
+    object-fit:cover;
 
-.family-item h2{
-
-font-size:1rem;
-
-color:var(--gold-light);
-
-margin-bottom:15px;
+    transition:.5s;
 
 }
 
-.family-item h4{
+.family-frame:hover img{
 
-margin-top:10px;
-
-}
-
-.family-separator{
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
+    transform:scale(1.05);
 
 }
 
-.family-separator img{
+.family-person h3{
 
-width:70px;
+    margin-top:25px;
 
-filter:
-drop-shadow(0 0 10px var(--gold));
+    color:var(--gold);
+
+    font-size:1.8rem;
+
+    line-height:1.4;
+
+}
+
+.family-person h4{
+
+    margin-top:18px;
+
+    color:#fff;
+
+    font-size:1.15rem;
+
+    font-weight:600;
+
+}
+
+.family-person p{
+
+    margin-top:6px;
+
+    color:#ddd;
+
+    font-size:1rem;
+
+    line-height:1.6;
+
+}
+
+.family-center{
+
+    width:110px;
+    height:110px;
+
+    margin-top:110px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+    135deg,
+    #e6c36c,
+    #a57b27
+    );
+
+    box-shadow:
+    0 0 35px rgba(201,163,92,.45);
+
+}
+
+.family-center span{
+
+    color:#fff;
+
+    font-size:4rem;
+
+    font-family:'Playfair Display',serif;
 
 }
 
@@ -3014,6 +3039,67 @@ height:450px;
     width:40px;
     height:auto;
 }
+
+/* ======================================
+   FAMILY MOBILE
+====================================== */
+
+.family-wrapper{
+
+    flex-direction:column;
+
+    gap:35px;
+
+    align-items:center;
+
+}
+
+.family-person{
+
+    width:100%;
+
+}
+
+.family-frame{
+
+    width:210px;
+    height:270px;
+
+}
+
+.family-person h3{
+
+    font-size:1.45rem;
+
+}
+
+.family-person h4{
+
+    font-size:1rem;
+
+}
+
+.family-person p{
+
+    font-size:.95rem;
+
+}
+
+.family-center{
+
+    width:70px;
+    height:70px;
+
+    margin-top:0;
+
+}
+
+.family-center span{
+
+    font-size:2.8rem;
+
+}
+
 }
 /* =======================================================
    SMALL PHONE

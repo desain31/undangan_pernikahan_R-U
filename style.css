@@ -3401,25 +3401,109 @@ will-change:transform;
     }
 
 /* =======================================================
-   SCROLL REVEAL ANIMATION
+   PREMIUM SCROLL ANIMATION
 ======================================================= */
 
-.reveal{
+.reveal-up,
+.reveal-left,
+.reveal-right,
+.reveal-zoom,
+.reveal-blur,
+.reveal-flip{
 
     opacity:0;
-
-    transform:translateY(80px);
-
-    transition:
-    opacity .9s ease,
-    transform .9s ease;
+    transition:1s ease;
 
 }
 
-.reveal.show{
+/* UP */
+
+.reveal-up{
+
+    transform:translateY(80px);
+
+}
+
+.reveal-up.show{
 
     opacity:1;
-
     transform:translateY(0);
+
+}
+
+/* LEFT */
+
+.reveal-left{
+
+    transform:translateX(-80px);
+
+}
+
+.reveal-left.show{
+
+    opacity:1;
+    transform:translateX(0);
+
+}
+
+/* RIGHT */
+
+.reveal-right{
+
+    transform:translateX(80px);
+
+}
+
+.reveal-right.show{
+
+    opacity:1;
+    transform:translateX(0);
+
+}
+
+/* ZOOM */
+
+.reveal-zoom{
+
+    transform:scale(.75);
+
+}
+
+.reveal-zoom.show{
+
+    opacity:1;
+    transform:scale(1);
+
+}
+
+/* BLUR */
+
+.reveal-blur{
+
+    transform:translateY(40px);
+    filter:blur(20px);
+
+}
+
+.reveal-blur.show{
+
+    opacity:1;
+    transform:translateY(0);
+    filter:blur(0);
+
+}
+
+/* FLIP */
+
+.reveal-flip{
+
+    transform:perspective(1000px) rotateX(80deg);
+
+}
+
+.reveal-flip.show{
+
+    opacity:1;
+    transform:perspective(1000px) rotateX(0);
 
 }

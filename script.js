@@ -1562,14 +1562,18 @@ console.log(
 });
 
 /* =======================================================
-   SCROLL REVEAL
+   PREMIUM SCROLL REVEAL
 ======================================================= */
 
-const revealElements = document.querySelectorAll(".reveal");
+const revealItems = document.querySelectorAll(
 
-const revealObserver = new IntersectionObserver((entries) => {
+'.reveal-up,.reveal-left,.reveal-right,.reveal-zoom,.reveal-blur,.reveal-flip'
 
-    entries.forEach(entry => {
+);
+
+const revealObserver = new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
 
         if(entry.isIntersecting){
 
@@ -1584,9 +1588,11 @@ const revealObserver = new IntersectionObserver((entries) => {
     });
 
 },{
-    threshold:0.2
+    threshold:.15
 });
 
-revealElements.forEach(item => {
+revealItems.forEach(item=>{
+
     revealObserver.observe(item);
+
 });

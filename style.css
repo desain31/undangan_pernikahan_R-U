@@ -3158,6 +3158,70 @@ height:450px;
 
 }
 
+/* ===========================
+   DETAIL ACARA MOBILE
+=========================== */
+
+#eventSection .section-title h2{
+
+    font-size:2rem;
+    line-height:1.2;
+
+}
+
+#eventSection .event-subtitle{
+
+    font-size:.85rem;
+    color:#d4b06a;
+    margin-top:8px;
+    letter-spacing:1px;
+
+}
+
+#eventSection .event-card{
+
+    padding:22px;
+    border-radius:22px;
+
+}
+
+#eventSection .event-header h3{
+
+    font-size:2rem;
+
+}
+
+#eventSection .event-body{
+
+    gap:16px;
+
+}
+
+#eventSection .event-item{
+
+    padding:18px;
+
+}
+
+#eventSection .event-item span{
+
+    font-size:1rem;
+
+}
+
+#eventSection .event-item h4{
+
+    font-size:1.3rem;
+
+}
+
+#eventSection .event-item p{
+
+    font-size:1rem;
+    line-height:1.8;
+
+}
+
 /* ======================================
    COUNTDOWN MOBILE
 ====================================== */

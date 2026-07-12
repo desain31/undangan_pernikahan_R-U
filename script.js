@@ -1567,7 +1567,7 @@ console.log(
 
 const revealItems = document.querySelectorAll(
 
-'.reveal-up,.reveal-left,.reveal-right,.reveal-zoom,.reveal-blur,.reveal-flip'
+'.reveal-up,.reveal-left'
 
 );
 
@@ -1588,7 +1588,7 @@ const revealObserver = new IntersectionObserver((entries)=>{
     });
 
 },{
-    threshold:.15
+    threshold:0.15
 });
 
 revealItems.forEach(item=>{

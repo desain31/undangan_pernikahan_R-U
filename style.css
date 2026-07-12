@@ -3346,11 +3346,17 @@ height:450px;
 
 #ngunduhMantu .event-subtitle{
 
+    color:#ffffff;
+
     font-size:.8rem;
 
     letter-spacing:1px;
 
     margin-top:8px;
+
+    text-transform:uppercase;
+
+    opacity:.9;
 
 }
 

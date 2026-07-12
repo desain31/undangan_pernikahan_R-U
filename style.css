@@ -3123,6 +3123,41 @@ height:450px;
 
 }
 
+/* ======================================
+   FAMILY NAME MOBILE
+====================================== */
+
+.family-person h3{
+
+    font-size:1.55rem;
+    line-height:1.45;
+    min-height:95px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    padding:0 10px;
+
+}
+
+.family-person h4{
+
+    font-size:1.05rem;
+    margin-top:5px;
+    margin-bottom:12px;
+
+}
+
+.family-person p{
+
+    font-size:1rem;
+    line-height:1.8;
+
+}
+
 }
 /* =======================================================
    SMALL PHONE

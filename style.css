@@ -3073,6 +3073,63 @@ height:450px;
 
 }
 
+    /* ===========================
+       COUPLE MOBILE
+    =========================== */
+
+    .couple-wrapper{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:35px;
+    }
+
+    .person-card{
+        width:100%;
+        max-width:320px;
+        text-align:center;
+    }
+
+    .person-frame{
+        width:220px;
+        height:220px;
+        margin:0 auto 20px;
+    }
+
+    .person-frame img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
+    .love-center{
+        order:2;
+    }
+
+    .love-circle{
+        width:70px;
+        height:70px;
+        font-size:1.5rem;
+    }
+
+    .person-card h3{
+        font-size:1.6rem;
+        line-height:1.4;
+        max-width:280px;
+        margin:15px auto 10px;
+        word-break:break-word;
+    }
+
+    .person-card p{
+        font-size:1rem;
+    }
+
+    /* Wayang bawah disembunyikan */
+
+    .wayang-decoration{
+        display:none;
+    }
+
 }
 /* =======================================================
    SMALL PHONE

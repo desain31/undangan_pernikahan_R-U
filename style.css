@@ -3414,58 +3414,66 @@ height:450px;
 }
 
 /* ======================================
-   LIVE STREAM MOBILE
+   LIVE STREAMING MOBILE
 ====================================== */
 
-#streamSection .section-title h5{
-    font-size: .8rem;
-    letter-spacing: 2px;
+#liveStreaming .section-title h5{
+
+    font-size:.85rem;
+    letter-spacing:3px;
+    margin-bottom:10px;
+
 }
 
-#streamSection .section-title h2{
-    font-size: 2rem;
-    line-height: 1.2;
+#liveStreaming .section-title h2{
+
+    font-size:2rem;
+    line-height:1.2;
+    margin-bottom:30px;
+
 }
 
 .stream-card{
-    padding:20px;
-    border-radius:22px;
-}
 
-.stream-image{
-    margin:20px 0;
-}
-
-.stream-image img{
     width:100%;
-    max-width:280px;
-    display:block;
+    max-width:360px;
     margin:auto;
-    border-radius:18px;
+
 }
 
 .stream-video{
-    margin-top:20px;
+
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+
 }
 
-.stream-video iframe{
+.stream-video img{
+
     width:100%;
     height:220px;
-    border-radius:18px;
-}
-
-.stream-btn{
-    margin-top:22px;
-}
-
-.stream-btn .btn-premium{
-    width:100%;
-    max-width:280px;
-    margin:auto;
+    object-fit:cover;
     display:block;
-    text-align:center;
+
 }
 
+.stream-button{
+
+    margin-top:25px;
+    text-align:center;
+
+}
+
+.stream-button .btn-premium{
+
+    width:100%;
+    max-width:300px;
+    padding:15px 25px;
+    font-size:1rem;
+    border-radius:50px;
+
+}
 /* ======================================
    CLOSING MOBILE
 ====================================== */

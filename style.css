@@ -3159,6 +3159,60 @@ height:450px;
 }
 
 /* ======================================
+   COUNTDOWN MOBILE
+====================================== */
+
+.countdown-wrapper{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    width:100%;
+
+    max-width:240px;
+
+    margin:30px auto;
+
+}
+
+.count-card{
+
+    width:100%;
+
+    height:90px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.count-card span{
+
+    font-size:1.6rem;
+
+    font-weight:700;
+
+}
+
+.count-card small{
+
+    font-size:.9rem;
+
+    margin-top:5px;
+
+}
+
+/* ======================================
    NGUNDUH MANTU MOBILE
 ====================================== */
 

@@ -3339,6 +3339,59 @@ height:450px;
 }
 
 /* ======================================
+   LIVE STREAM MOBILE
+====================================== */
+
+#streamSection .section-title h5{
+    font-size: .8rem;
+    letter-spacing: 2px;
+}
+
+#streamSection .section-title h2{
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.stream-card{
+    padding:20px;
+    border-radius:22px;
+}
+
+.stream-image{
+    margin:20px 0;
+}
+
+.stream-image img{
+    width:100%;
+    max-width:280px;
+    display:block;
+    margin:auto;
+    border-radius:18px;
+}
+
+.stream-video{
+    margin-top:20px;
+}
+
+.stream-video iframe{
+    width:100%;
+    height:220px;
+    border-radius:18px;
+}
+
+.stream-btn{
+    margin-top:22px;
+}
+
+.stream-btn .btn-premium{
+    width:100%;
+    max-width:280px;
+    margin:auto;
+    display:block;
+    text-align:center;
+}
+
+/* ======================================
    CLOSING MOBILE
 ====================================== */
 

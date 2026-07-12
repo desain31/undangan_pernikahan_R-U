@@ -3164,35 +3164,43 @@ height:450px;
 
 .countdown-wrapper{
 
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    margin:30px 0;
+
+}
+
+.countdown-wrapper h4{
+
+    margin-bottom:18px;
+
+    font-size:1.15rem;
+
+}
+
+.countdown{
+
     display:grid;
 
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(2,90px);
 
-    gap:15px;
+    justify-content:center;
 
-    width:100%;
-
-    max-width:240px;
-
-    margin:30px auto;
+    gap:14px;
 
 }
 
 .count-card{
 
-    width:100%;
+    width:90px;
 
     height:90px;
-
-    border-radius:18px;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
 
 }
 
@@ -3200,15 +3208,65 @@ height:450px;
 
     font-size:1.6rem;
 
-    font-weight:700;
+}
+
+.count-card p{
+
+    font-size:.85rem;
 
 }
 
-.count-card small{
+/* ======================================
+   MAP MOBILE
+====================================== */
 
-    font-size:.9rem;
+.maps-wrapper iframe{
+    width:100%;
+    height:260px;
+    border-radius:18px;
+}
 
-    margin-top:5px;
+.event-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.event-buttons .btn-premium{
+    width:100%;
+    text-align:center;
+}
+
+
+/* ======================================
+   EVENT CARD MOBILE
+====================================== */
+
+.event-card{
+
+    padding:22px;
+
+    border-radius:24px;
+
+}
+
+.info-box{
+
+    padding:18px;
+
+}
+
+.info-box h4{
+
+    font-size:1rem;
+
+}
+
+.info-box p{
+
+    font-size:.95rem;
+
+    line-height:1.8;
 
 }
 

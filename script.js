@@ -1562,34 +1562,31 @@ console.log(
 });
 
 /* =======================================================
-   PREMIUM SCROLL REVEAL
+   SCROLL REVEAL
 ======================================================= */
 
-const revealItems = document.querySelectorAll(".reveal-up, .reveal-left");
+const revealElements = document.querySelectorAll(".reveal-up, .reveal-left");
 
-function revealOnScroll(){
+const revealObserver = new IntersectionObserver((entries) => {
 
-    const windowHeight = window.innerHeight;
+    entries.forEach(entry => {
 
-    revealItems.forEach(item=>{
+        if(entry.isIntersecting){
 
-        const top = item.getBoundingClientRect().top;
-        const bottom = item.getBoundingClientRect().bottom;
-
-        if(top < windowHeight - 100 && bottom > 100){
-
-            item.classList.add("show");
+            entry.target.classList.add("show");
 
         }else{
 
-            item.classList.remove("show");
+            entry.target.classList.remove("show");
 
         }
 
     });
 
-}
+},{
+    threshold:0.2
+});
 
-window.addEventListener("scroll", revealOnScroll);
-
-window.addEventListener("load", revealOnScroll);
+revealElements.forEach(item => {
+    revealObserver.observe(item);
+});

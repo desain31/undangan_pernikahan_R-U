@@ -3401,43 +3401,25 @@ will-change:transform;
     }
 
 /* =======================================================
-   PREMIUM SCROLL ANIMATION
+   SCROLL REVEAL ANIMATION
 ======================================================= */
 
-.reveal-up,
-.reveal-left{
+.reveal{
 
     opacity:0;
-    transition:all .8s ease;
+
+    transform:translateY(80px);
+
+    transition:
+    opacity .9s ease,
+    transform .9s ease;
 
 }
 
-/* UP */
-
-.reveal-up{
-
-    transform:translateY(60px);
-
-}
-
-.reveal-up.show{
+.reveal.show{
 
     opacity:1;
+
     transform:translateY(0);
-
-}
-
-/* LEFT */
-
-.reveal-left{
-
-    transform:translateX(-50px);
-
-}
-
-.reveal-left.show{
-
-    opacity:1;
-    transform:translateX(0);
 
 }

@@ -1565,31 +1565,28 @@ console.log(
    SCROLL REVEAL
 ======================================================= */
 
-const revealElements = document.querySelectorAll(".reveal-up, .reveal-left");
+const revealElements = document.querySelectorAll(".reveal");
 
-function revealOnScroll(){
+const revealObserver = new IntersectionObserver((entries) => {
 
-    const windowHeight = window.innerHeight;
+    entries.forEach(entry => {
 
-    revealElements.forEach((element)=>{
+        if(entry.isIntersecting){
 
-        const elementTop = element.getBoundingClientRect().top;
-        const elementBottom = element.getBoundingClientRect().bottom;
-
-        if(elementTop < windowHeight - 100 && elementBottom > 100){
-
-            element.classList.add("show");
+            entry.target.classList.add("show");
 
         }else{
 
-            element.classList.remove("show");
+            entry.target.classList.remove("show");
 
         }
 
     });
 
-}
+},{
+    threshold:0.2
+});
 
-window.addEventListener("scroll", revealOnScroll);
-
-window.addEventListener("load", revealOnScroll);
+revealElements.forEach(item => {
+    revealObserver.observe(item);
+});

@@ -2951,54 +2951,41 @@ height:450px;
 
 }
 
-/* ===========================================
+/* ======================================
    QURAN MOBILE
-=========================================== */
-
-.quran-ornament-left,
-.quran-ornament-right{
-
-    display:none !important;
-
-}
+====================================== */
 
 #quranSection .section-title h5{
 
-    font-size:.8rem;
-    letter-spacing:3px;
-    margin-bottom:10px;
+    font-size:.85rem;
+    letter-spacing:2px;
 
 }
 
 #quranSection .section-title h2{
 
-    font-size:1.7rem;
+    font-size:2rem;
     line-height:1.2;
-    margin-bottom:20px;
+    margin-bottom:18px;
 
 }
 
 #quranSection .quran-card{
 
-    width:92%;
+    width:94%;
+    margin:25px auto;
     padding:22px 18px;
-    margin:auto;
-    border-radius:22px;
 
 }
-
-/* Ayat Arab */
 
 #quranSection .arabic-text{
 
-    font-size:1.55rem;
-    line-height:1.9;
+    font-size:1.45rem;
+    line-height:2;
     text-align:center;
-    margin-bottom:25px;
+    margin-bottom:22px;
 
 }
-
-/* Latin */
 
 #quranSection .latin-text{
 
@@ -3009,11 +2996,9 @@ height:450px;
 
 }
 
-/* Terjemahan */
-
 #quranSection .translation-text{
 
-    font-size:.9rem;
+    font-size:.92rem;
     line-height:1.8;
     text-align:center;
 

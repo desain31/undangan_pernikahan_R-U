@@ -3008,154 +3008,62 @@ height:450px;
 
 }
 
-/* ===========================================
-   FAMILY SECTION MOBILE
-=========================================== */
-
-#familySection .family-card{
-    padding:20px;
-}
-
-#familySection .family-photo img{
-    width:100%;
-    max-width:330px;
-    height:auto;
-    border-radius:20px;
-    margin:auto;
-    display:block;
-}
-
-#familySection .family-content{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    gap:25px;
-    margin-top:25px;
-}
-
-#familySection .family-item{
-    width:100%;
-}
-
-#familySection .family-item h2{
-    font-size:1.4rem;
-    line-height:1.5;
-    margin-bottom:12px;
-}
-
-#familySection .family-item h4{
-    font-size:1rem;
-    margin-bottom:8px;
-}
-
-#familySection .family-item h5{
-    font-size:.95rem;
-    line-height:1.7;
-}
-
-#familySection .family-separator{
-    margin:5px 0;
-}
-
-#familySection .family-separator img{
-    width:40px;
-    height:auto;
-}
-
 /* ======================================
    FAMILY MOBILE
 ====================================== */
 
 .family-wrapper{
-
-    flex-direction:column;
-
-    gap:35px;
-
-    align-items:center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
 }
 
 .family-person{
-
-    width:100%;
-
+    width: 100%;
+    text-align: center;
 }
 
 .family-frame{
-
-    width:210px;
-    height:270px;
-
+    width: 210px;
+    height: 270px;
+    margin: 0 auto 20px;
 }
 
+/* Nama Mempelai */
 .family-person h3{
-
-    font-size:1.45rem;
-
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    padding: 0 10px;
 }
 
+/* Putra/Putri Pertama dari */
 .family-person h4{
-
-    font-size:1rem;
-
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 8px;
+    padding: 0;
 }
 
+/* Nama Orang Tua */
 .family-person p{
-
-    font-size:.95rem;
-
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
 }
 
+/* Icon "&" */
 .family-center{
-
-    width:70px;
-    height:70px;
-
-    margin-top:0;
-
+    width: 70px;
+    height: 70px;
+    margin: 10px 0;
 }
 
 .family-center span{
-
-    font-size:2.8rem;
-
-}
-
-/* ======================================
-   FAMILY NAME MOBILE
-====================================== */
-
-.family-person h4{
-
-    font-size:1.55rem;
-    line-height:1.45;
-    min-height:95px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-
-    padding:0 10px;
-
-}
-
-.family-person h4{
-
-    font-size:1.05rem;
-    margin-top:5px;
-    margin-bottom:12px;
-
-}
-
-.family-person p{
-
-    font-size:1rem;
-    line-height:1.8;
-
+    font-size: 2.8rem;
 }
 
 /* ===========================
